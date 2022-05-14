@@ -4,7 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 
 function App() {
   return (
-    //returns all the routes and components
+    //returns all the routes & components
     <div className="App">
       <BrowserRouter>
       <Category />
