@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
-import styled from "styled-components";
-import {Splide, SplideSlide} from "@splidejs/react-splide";
-import '@splidejs/splide/dist/css/splide.min.css';
+import { useEffect, useState } from 'react'
+import styled from "styled-components"
+import {Splide, SplideSlide} from "@splidejs/react-splide"
+import '@splidejs/splide/dist/css/splide.min.css'
+import { Link } from 'react-router-dom'
 
 
 function Popular() {
@@ -46,11 +47,13 @@ function Popular() {
               return(
                 <SplideSlide key={recipe.id}>
                 <Card>
+                  <Link to={'/recipe/' + recipe.id}>
                   <p>
                     {recipe.title}
                   </p>
                   <img src={recipe.image} alt={recipe.title}></img>
                   <Gradient />
+                  </Link>
                 </Card>
                 </SplideSlide>
               )
@@ -63,6 +66,12 @@ function Popular() {
 
 const Wrapper = styled.div`
   margin: 4rem 0rem;
+
+  h3{
+    text-align: center;
+    padding: 1rem 0rem 4rem;
+    font-size: 2.3rem;
+  }
 `
 const Card = styled.div`
   min-height: 25rem;
