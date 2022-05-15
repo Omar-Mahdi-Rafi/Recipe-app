@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
        <Nav>
          <Logo to={"/"}>
-           <img src={require("./pages/SpoonScroller.png") alt=""}/>
+           <img src={require("./pages/SpoonScroller.png")} alt="Spoon Scroller Logo"/>
          </Logo>
        </Nav>
       <Search />
