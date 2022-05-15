@@ -7,6 +7,7 @@ import { Link } from "react-router-dom"
 
 function App() {
   return (
+    //returns all the routes & components
     <div className="App">
       <BrowserRouter>
        <Nav>
