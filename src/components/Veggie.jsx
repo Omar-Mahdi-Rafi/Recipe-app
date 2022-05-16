@@ -30,8 +30,13 @@ function Veggie() {
 
   return (
     <div>
+<<<<<<< HEAD
       <Wrapper>
         <h3>Our Vegeterian picks</h3>
+=======
+    <Wrapper>
+         <h3>Our Vegeterian picks</h3>
+>>>>>>> dfa122598fd88e6269951f6376459b4d9bfe64f6
 
         <Splide options={{
           perPage: 3,
@@ -111,4 +116,8 @@ const Gradient = styled.div`
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5))
 `;
 
+<<<<<<< HEAD
 export default Veggie;
+=======
+  export default Veggie;
+>>>>>>> dfa122598fd88e6269951f6376459b4d9bfe64f6
