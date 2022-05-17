@@ -1,6 +1,6 @@
 # Running SpoonScroller locally
 
-Find recipes of any dish you want to cook right now! SpoonScroller is a web application to be found on - spoonscroller.netlify.app - to search and find recipes of thousands of dishes from different countries of the world. Covering major cuisines titled Thai, American, Italian and Japanese, SpoonScroller showcases a range of 10 daily updated top highlighted recipes based on popularity and vegiterian preferences. 
+Find recipes of any dish you want to cook right now! SpoonScroller is a web application to be found on - https://spoonscroller.netlify.app - to search and find recipes of thousands of dishes from different countries of the world. Covering major cuisines titled Thai, American, Italian and Japanese, SpoonScroller showcases a range of 10 daily updated top highlighted recipes based on popularity and vegiterian preferences. 
 
 This app contains features like searching where any recipes could be found by simply searching by the name of the recipe.
 
