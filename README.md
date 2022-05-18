@@ -4,7 +4,16 @@ Find recipes of any dish you want to cook right now! SpoonScroller is a web appl
 
 This app contains features like searching where any recipes could be found by simply searching by the name of the recipe.
 
-##
+## The project could be live viewed at 
+
+https://spoonscroller.netlify.app
+
+## Tech Stack 
+  1. ReactJS
+  2. JSX
+  3. NodeJS
+
+## Find Scripts into action
 
 In the project directory, you can run:
 
@@ -28,3 +37,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Motive behind the project
+
+Implementing the the knoweledge of reactjs. 
